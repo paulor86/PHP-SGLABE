@@ -1,0 +1,159 @@
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/Roboto/Roboto-Thin.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* Area de login*/
+
+
+#logomarca{
+	font-family:robotoregular;
+	font-size:150%;
+	color: #fff;
+}
+
+.navbar{
+	background: none;
+	border:none;
+}
+.navbar-toggle{
+	border: none;
+}
+
+
+#menuLogin a{
+	color: #fff;
+	font-weight: bold;
+	transition: color 0.2s;
+	outline: none;
+}
+
+#menuLogin a:hover{
+	color: #ff4500;
+}
+.formLogin{
+	background:rgba(255,255,255,0.6);
+	padding: 10px;
+	box-shadow: 1px 1px 10px #333;
+	border-radius: 5px;
+}
+
+.formLogin h3{
+	font-family:robotoregular;
+}
+
+
+/* Fim da Area de login
+------------------------------------------
+
+Acesso geral
+*/
+
+.info-user{
+	background: #337ab7;
+	font-family:robotoregular;
+	color: #fff;
+}
+.info-user span{
+	background: #ccc;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 50px;
+}
+
+.conteudo{
+	background-image:url('../img/background2.png');
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-khtml-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+    background-position: center; 
+}
+
+.font15px{
+	font-size:15px;
+}
+
+.font15px a{
+	font-size:15px;
+}
+
+
+.principal{
+	background: rgba(255,255,255,0.7);
+	padding: 5px;
+}
+
+.localTitle{
+	font-family:robotoregular;
+}
+
+
+.no-padding{
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+/*Menu principal*/
+
+.menuPrincipal{
+	background: rgba(255,255,255,0.7);
+	filter: blur('15px');
+	padding: 0px;
+}
+
+#menuPrincipal li a{
+	font-weight: bold;
+	color:#ff4500;
+	font-family:robotoregular;
+	transition: color 0.2s;
+}
+#menuPrincipal li a:hover{
+	color: #337ab7;
+	background: none;
+}
+
+#menuPrincipal li a span{
+	background: #fff;
+	padding: 5px;
+	transition: margin-left 0.3s, color 0.3s;
+	border-radius: 5px;
+}
+#menuPrincipal li a:hover> span{
+	background: #fff;
+	margin-left:3px;
+	border-radius: 5px;
+}
+#menuPrincipal ul{
+	
+}
+
+#menuPrincipal li{
+	width: 100%;
+}
+
+
+
+/*RODAPE*/
+
+.footer{
+	
+	margin-top: 200px;
+	height:50px;
+	line-height:50px;
+	font-family:robotoregular;
+	font-size:12px;
+	color:#fff;
+	
+}
+
+
+
